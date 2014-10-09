@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>__MSG_settings__</title>
+    <link rel="stylesheet" media="all" href="css/bootstrap.min.css">
+    <link rel="stylesheet" media="all" href="css/options.css">
+    <link rel="stylesheet" media="all" href="css/localize-page.css">
+    <script src="js/require-config.js"></script>
+    <script src="js/ga.js"></script>
+</head>
+<body class="localize-page">
+    <div class="page-header">
+        <h1>__MSG_settings__</h1>
+    </div>
+    <div class="checkbox">
+        <label>
+            <input type="checkbox" data-bind="checked: notifications"> __MSG_show_notifications__
+        </label>
+    </div>
+    <div class="page-header">
+        <h1>__MSG_subscriptions__</h1>
+    </div>
+    <!-- ko foreach: channels -->
+        <p class="lead">
+            <button type="button" class="btn btn-danger btn-xs" data-bind="click: $root.remove.bind($root)">__MSG_delete__</button>
+            <span data-bind="text: title"></span>
+        </p>
+    <!-- /ko -->
+    <script data-main="options" src="vendors/require.js"></script>
+</body>
+</html>

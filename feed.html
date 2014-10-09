@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" media="all" href="css/bootstrap.min.css">
+    <link rel="stylesheet" media="all" href="css/feed.css">
+    <script src="js/require-config.js"></script>
+    <script src="js/ga.js"></script>
+</head>
+<body>
+
+<div class="row">
+    <div class="col-md-4"></div>
+    <div class="col-md-4">
+        <div class="news-container" data-bind="click: onContainerClick">
+            <div class="news">
+                <div class="list-group" data-bind="template: {name: 'news-template', foreach: news}"></div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4"></div>
+</div>
+
+<template id="news-template">
+    <div class="media list-group-item" data-bind="click: $root.onItemClick">
+        <a class="pull-left" href="#">
+            <img class="media-object" data-bind="attr: {src: iconUrl}">
+        </a>
+        <div class="media-body">
+            <div data-bind="text: title"></div>
+            <small data-bind="text: message"></small>
+        </div>
+    </div>
+</template>
+
+<script data-main="feed" src="vendors/require.js"></script>
+</body>
+</html>

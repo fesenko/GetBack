@@ -1,0 +1,7 @@
+.localize-page {
+    visibility: hidden;
+}
+
+.localize-page.done {
+    visibility: visible;
+}

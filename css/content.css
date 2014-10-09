@@ -1,0 +1,77 @@
+#__nr-overlay {
+    background: none !important;
+    border: none !important;
+    height: 100% !important;
+    width: 100% !important;
+    position: fixed !important;
+    z-index: 99999999 !important;
+    top: 0px !important;
+    left: 0px !important;
+    display: block !important;
+    opacity: 1;
+    -webkit-transition: opacity 50ms linear;
+}
+
+@keyframes nr-bar__anim {
+    from { top: -100%; }
+    to { top: 0; }
+}
+
+@-webkit-keyframes nr-bar__anim {
+    from { top: -100%; }
+    to { top: 0; }
+}
+
+.__nr-bar__container {
+    animation: nr-bar__anim 1s;
+    -webkit-animation: nr-bar__anim 1s;
+    position: fixed;
+    background: #fff;
+    z-index: 9999999;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 8px;
+    box-shadow: 0 0 16px #000;
+    font: 13px/19px Arial;
+    text-align: left;
+    font-weight: normal;
+    color: rgb(68,68,68);
+}
+
+.__nr-bar__container,
+.__nr-bar__button {
+    font: 13px/19px Arial;
+}
+
+.__nr-bar__caption {
+    margin-left: 15px;
+    margin-right: 10px;
+    font-size: 16px;
+}
+
+.__nr-bar__button {
+    width: 60px;
+    padding: 4px 12px;
+    color: #fff;
+    border: 1px solid #fff;
+    background-color: rgb(66, 139, 202);
+    cursor: pointer;
+    display: inline-block;
+    box-shadow: none;
+
+}
+
+.__nr-bar__button:hover {
+    background-color: rgb(50, 118, 177);
+}
+
+.__nr-bar__close {
+    color: #555;
+    margin-left: 10px;
+    text-decoration: underline;
+}
+
+.__nr-bar__close:hover {
+    color: #222;
+}

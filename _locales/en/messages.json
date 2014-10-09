@@ -1,0 +1,41 @@
+{
+    "extension_name": {
+        "message": "GetBack.to"
+    },
+
+    "extension_description": {
+        "message": "Notify about updates on your favourite web."
+    },
+
+    "settings": {
+        "message": "Settings"
+    },
+
+    "subscriptions": {
+        "message": "Subscriptions"
+    },
+
+    "delete": {
+        "message": "Delete"
+    },
+
+    "show_notifications": {
+        "message": "Show notifications"
+    },
+
+    "news_forms": {
+        "message": "{n} article | {n} articles | {n} articles | no articles"
+    },
+
+    "offer_to_subscribe": {
+        "message": "Do you want to subscribe to updates on"
+    },
+
+    "yes": {
+        "message": "Yes"
+    },
+
+    "no": {
+        "message": "No"
+    }
+}

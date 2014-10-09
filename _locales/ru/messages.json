@@ -1,0 +1,41 @@
+{
+    "extension_name": {
+        "message": "GetBack.to"
+    },
+
+    "extension_description": {
+        "message": "Сообщает об обновлениях на любимых сайтах мгновенно."
+    },
+
+    "settings": {
+        "message": "Настройки"
+    },
+
+    "subscriptions": {
+        "message": "Подписки"
+    },
+
+    "delete": {
+        "message": "Удалить"
+    },
+
+    "show_notifications": {
+        "message": "Показывать уведомления"
+    },
+
+    "news_forms": {
+        "message": "{n} новая новость | {n} новых новости | {n} новых новостей | новостей нет"
+    },
+
+    "offer_to_subscribe": {
+        "message": "Хотите подписаться на обновления"
+    },
+
+    "yes": {
+        "message": "Да"
+    },
+
+    "no": {
+        "message": "Нет"
+    }
+}
