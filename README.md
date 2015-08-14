@@ -1,8 +1,12 @@
 # GetBack
 
-This is a Chrome extension. The extension shows whether or not a website has a RSS channel. 
+This is a Chrome extension. The extension shows whether or not a website has a RSS channel.
 A user can subscribe on a channel and get notifications about updates instantly.
 Click on the notification redirects a user to the news on a website. The extension supports Russian and English languages.
+
+## Notifications
+
+<img width="300" src="images/news.png" />
 
 ## Install
 
